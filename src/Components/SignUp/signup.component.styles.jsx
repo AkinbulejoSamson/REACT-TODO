@@ -1,10 +1,10 @@
-import React from "react";
+
 import { makeStyles } from "@mui/styles"
 
 export const useStyles = makeStyles({
 	root: {
 		alignContent: "center",
-		width: "350px",
+		width: "400px",
 		"& .MuiPaper-root": {
 			padding: "20px 20px",
 		},
@@ -14,11 +14,20 @@ export const useStyles = makeStyles({
 		"& .MuiAvatar-root": {
 			backgroundColor: "#ff0084",
 		},
+		"& .MuiButton-root": {
+			// background: '#ff0084'
+			
+		},
 		"& .MuiGrid-root": {
-			marginBottom: "20px",
+			marginBottom: "10px",
 		},
 		"& .MuiTextField-root": {
 			marginBottom: 16,
 		},
+		// "& div": {
+		// 	display: 'flex',
+		// 	flex: 'fle',
+		// 	justifyContent: 'space-between'
+		// }
 	},
 })
